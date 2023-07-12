@@ -134,11 +134,12 @@
 > Navigate to Homepage
 
 ## Experience Cloud
-> Browse catalog.
-> Browse book details.
-> Browse related.
+- Browse catalog.
+- Browse book details.
+- Browse related.
 
-
+- Browse Book copies
+- Browse locations
 
 
 
