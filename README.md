@@ -6,6 +6,8 @@
 3. The ability to track individual library patrons and see current and previous lending activity.
 
 ## Technologies used in the McLean Library Management System
+-- View Visual Force Page - Release Notes
+
 1. **Declarative**
 > Example: Roll-up summary field on Book__c
 
@@ -39,7 +41,7 @@
 ### Create a new Book Title [1]
 ### Create a new Book Copy (see code below)
 
-## Code for the Book Copy Master Trigger ##
+## Code for the Book Copy Master Trigger
 
 > trigger BookCopyMasterTrigger on Book_Copy__c (    before insert, after insert,
 >     before update, after update,
@@ -134,12 +136,23 @@
 > Navigate to Homepage
 
 ## Experience Cloud
-- Browse catalog.
-- Browse book details.
-- Browse related.
-
+- Browse catalog
+- Browse book details
+- Browse related
+---
 - Browse Book copies
-- Browse locations
+---
+- Browse locations (view map)
+
+## Tableau CRM Analytics
+-- Browse dashboards
+
+## Github [2] (package.xml)
+1. Package.xml | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
+2. Readme.md file | https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
+3. Query the readme file | link in utility bar - https://bah97-dev-ed.develop.my.site.com/vahc/s/topiccatalog
+-- Three questions
+e.g. what is the code for the trigger? 
 
 
 
