@@ -126,11 +126,13 @@
 > Custom component uses the `mailto` link
 
 ## Utility Bar
-> Go through links
-> Go to Homepage
+> Browse links
+> Navigate to Homepage
 
 ## Experience Cloud
-> Browse catalog
+> Browse catalog.
+> Browse book details.
+> Browse related.
 
 
 
