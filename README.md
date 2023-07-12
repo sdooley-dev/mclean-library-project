@@ -29,6 +29,12 @@
 > Example: Uploaded package.xml
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
+## Demo
+> Login as librarian - View Permissions
+### Book object - Declarative - Roll Up Summary Fields
+### Create a new Book Title [1]
+### Create a new Book Copy (see code below)
+
 ## Code for the Book Copy Master Trigger ##
 
 > trigger BookCopyMasterTrigger on Book_Copy__c (    before insert, after insert,
@@ -72,7 +78,7 @@
 
 ## Code for the Book Copy Handler Class
 
-> public class BookCopyHandlerB {
+>  public class BookCopyHandlerB {
 > 
 >     // method to update Book_Copy_Number_D__c, Loan_Status__c
 >     public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
@@ -113,10 +119,24 @@
 >    }
 > }
 
+### Create a new Book Loan 
+(uses Book Loan Trigger)
 
-## Summary of the book Untamed
-The book "Untamed" by Glennon Doyle is currently checked in at the Great Falls Branch.
-Summary of the book Untamed: In this memoir, Glennon Doyle shares her journey of self-discovery and empowerment, encouraging readers to embrace their true selves, break free from societal expectations, and live a life guided by their own inner voice.
+## Lightning Web Component for the Book Loan record page
+> Custom component uses the `mailto` link
+
+## Utility Bar
+> Go through links
+> Go to Homepage
+
+## Experience Cloud
+> Browse catalog
+
+
+
+
+
+
 
 ## Custom objects used in the data schema
 What custom objects are used for the data schema for the McLean Library Salesforce org?
@@ -125,3 +145,7 @@ Book__c, Book_Copy__c and Book_Loan__c are the custom objects used in the Salesf
 ## Standard objects used in the data schema
 What standard objects are used for the data schema for the McLean Library Salesforce org?
 Account, Contact and User are the standard objects used in the Salesforce data schema for the McLean Library Management system.
+
+## Summary of the book Untamed
+The book "Untamed" by Glennon Doyle is currently checked in at the Great Falls Branch.
+Summary of the book Untamed: In this memoir, Glennon Doyle shares her journey of self-discovery and empowerment, encouraging readers to embrace their true selves, break free from societal expectations, and live a life guided by their own inner voice.
