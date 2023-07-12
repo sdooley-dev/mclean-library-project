@@ -6,7 +6,6 @@
 3. The ability to track individual library patrons and see current and previous lending activity.
 
 ## Technologies used in the McLean Library Management System
--- View Visual Force Page - Release Notes
 
 1. **Declarative**
 > Example: Roll-up summary field on Book__c
