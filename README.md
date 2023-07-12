@@ -30,7 +30,8 @@
 > Example: Uploaded package.xml
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
-## Code for the Book Copy Master Trigger
+## Code for the Book Copy Master Trigger ##
+code
 `
 
 trigger BookCopyMasterTrigger on Book_Copy__c (
