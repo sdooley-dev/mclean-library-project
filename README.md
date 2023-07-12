@@ -22,6 +22,10 @@
 5. **Experience Cloud**
 > Example: Catalog look-up on Book object.
 
+> Browse Book copies
+
+> Browse locations - (view map)
+
 6. **Tableau CRM Analytics**
 > Example: Analytics on Book object.
 
