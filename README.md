@@ -32,54 +32,48 @@
 
 ## Code for the Book Copy Master Trigger ##
 
-
-
-`  trigger BookCopyMasterTrigger on Book_Copy__c ( `
-`    before insert, after insert,
-    before update, after update,
-    before delete, after delete, after undelete) {
-
-    // check if it is a before event
-    if (trigger.isBefore) {
-        if (trigger.isInsert) {            
-            BookCopyHandlerB.updateBookCopyDetails(trigger.new);   
-        }
-
-        if (trigger.isUpdate) {
-            // call method here
-        }
-
-        if (trigger.isDelete) {
-            // call method here
-        }
-    }
-
-    // check if it is an after event
-    if (trigger.isAfter) {
-        if (trigger.isInsert) {
-            // call method here
-        }
-
-        if (trigger.isUpdate) {
-            // call method here
-        }
-
-        if (trigger.isDelete) {
-            // call method here
-        }
-
-        if (trigger.isUndelete) {
-            // call method here
-        }
-    }
-  }`
-
-
+> trigger BookCopyMasterTrigger on Book_Copy__c (    before insert, after insert,
+>     before update, after update,
+>     before delete, after delete, after undelete) {
+> 
+>     // check if it is a before event
+>     if (trigger.isBefore) {
+>         if (trigger.isInsert) {            
+>             BookCopyHandlerB.updateBookCopyDetails(trigger.new);   
+>         }
+> 
+>         if (trigger.isUpdate) {
+>             // call method here
+>         }
+> 
+>        if (trigger.isDelete) {
+>             // call method here
+>         }
+>     }
+> 
+>     // check if it is an after event
+>     if (trigger.isAfter) {
+>         if (trigger.isInsert) {
+>             // call method here
+>         }
+> 
+>         if (trigger.isUpdate) {
+>             // call method here
+>         }
+> 
+>         if (trigger.isDelete) {
+>            // call method here
+>        }
+> 
+>         if (trigger.isUndelete) {
+>             // call method here
+>         }
+>     }
+> }
 
 ## Code for the Book Copy Handler Class
 
-
-`public class BookCopyHandlerB {`
+public class BookCopyHandlerB {
 
     // method to update Book_Copy_Number_D__c, Loan_Status__c
     public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
@@ -119,7 +113,6 @@
         }
     }
 }
-
 
 
 ## Summary of the book Untamed
