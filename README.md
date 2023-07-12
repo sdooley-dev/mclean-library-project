@@ -34,7 +34,7 @@
 
 
 
-`trigger BookCopyMasterTrigger on Book_Copy__c (
+`  trigger BookCopyMasterTrigger on Book_Copy__c (
     before insert, after insert,
     before update, after update,
     before delete, after delete, after undelete) {
@@ -72,7 +72,7 @@
             // call method here
         }
     }
-}
+  }
 
 '
 
