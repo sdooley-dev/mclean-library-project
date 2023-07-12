@@ -73,12 +73,12 @@
 
 ## Code for the Book Copy Handler Class
 
-public class BookCopyHandlerB {
-
-    // method to update Book_Copy_Number_D__c, Loan_Status__c
-    public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
-        Set<Id> bookIds = new Set<Id>();
-
+> public class BookCopyHandlerB {
+> 
+>     // method to update Book_Copy_Number_D__c, Loan_Status__c
+>     public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
+>         Set<Id> bookIds = new Set<Id>();
+> 
         // find the book copy in [Book__c] and add it
         for (Book_Copy__c copy : copies) {
             if (copy.Book__c != null) {
