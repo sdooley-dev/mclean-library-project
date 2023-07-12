@@ -151,8 +151,8 @@
 1. Package.xml | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
 2. Readme.md file | https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 3. Query the readme file | link in utility bar - https://bah97-dev-ed.develop.my.site.com/vahc/s/topiccatalog
--- Three questions
-e.g. what is the code for the trigger? 
+-- Three questions [3]
+
 
 
 
