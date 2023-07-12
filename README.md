@@ -7,26 +7,26 @@
 3. The ability to track individual library patrons and see current and previous lending activity.
 
 ## Technologies used in the McLean Library Management System
-1. Declarative
+1. **Declarative**
 > Example: Roll-up summary field on Book__c
 
-2. Visualforce
+2. **Visualforce**
 > Example: Release notes/readme page
 
-3. Lightning Web Component
+3. **Lightning Web Component**
 > Example: LWC on Book Loan record page
 
-4. Apex Trigger
+4. **Apex Trigger**
 > Example: Trigger on insert/update record on Book Copy object.
 > Example: Trigger on insert/update record on Book Loan object.
 
-5. Experience Cloud
+5. **Experience Cloud**
 > Example: Catalog look-up on Book object.
 
-6. Tableau CRM Analytics
+6. **Tableau CRM Analytics**
 > Example: Analytics on Book object.
 
-7. Github
+7. **Github**
 > Example: Uploaded package.xml
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
