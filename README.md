@@ -1,7 +1,7 @@
 # mclean library management project summary
 
 
-## Here are the 3 main objectives of the McLean Library Management System project:
+==## Here are the 3 main objectives of the McLean Library Management System project:==
 1. The ability to track multiple copies of the same book title.
 2. The ability to track the branch location of a particular book (expect to have multiple branches)
 3. The ability to track individual library patrons and see current and previous lending activity.
@@ -79,40 +79,40 @@
 >     public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
 >         Set<Id> bookIds = new Set<Id>();
 > 
-        // find the book copy in [Book__c] and add it
-        for (Book_Copy__c copy : copies) {
-            if (copy.Book__c != null) {
-                bookIds.add(copy.Book__c);
-            }
-        }
-
-        Map<Id, Book__c> booksMap = new Map<Id, Book__c>([SELECT Id, Number_of_Copies__c FROM Book__c WHERE Id IN :bookIds]);
-
-        for (Book_Copy__c copy : copies) {
-            if (copy.Book__c != null) {
-                Book__c book = booksMap.get(copy.Book__c);
-
-                //  if a book copy already exist
-                if  ( book.Number_of_Copies__c != null ) {
-
-                    // increment copy number by 1 for that book title
-                    copy.Book_Copy_Number_D__c = book.Number_of_Copies__c + 1;
-                 }
-
-                // if no book copy exist yet, make the copy = 1
-                 if (book.Number_of_Copies__c == null) {
-                    copy.Book_Copy_Number_D__c = 1;
-                 }
-
-                 // insert status
-                 copy.Loan_Status__c = 'Checked In'; 
-
-                // insert date for first check-in
-                copy.Last_Checked_In__c = Date.today(); 
-            }
-        }
-    }
-}
+>        // find the book copy in [Book__c] and add it
+>        for (Book_Copy__c copy : copies) {
+>           if (copy.Book__c != null) {
+>                bookIds.add(copy.Book__c);
+>            }
+>        }
+>
+>        Map<Id, Book__c> booksMap = new Map<Id, Book__c>([SELECT Id, Number_of_Copies__c FROM Book__c WHERE Id IN :bookIds]);
+>
+>        for (Book_Copy__c copy : copies) {
+>            if (copy.Book__c != null) {
+>                Book__c book = booksMap.get(copy.Book__c);
+>
+>                //  if a book copy already exist
+>                if  ( book.Number_of_Copies__c != null ) {
+>
+>                    // increment copy number by 1 for that book title
+>                    copy.Book_Copy_Number_D__c = book.Number_of_Copies__c + 1;
+>                 }
+>
+>                // if no book copy exist yet, make the copy = 1
+>                 if (book.Number_of_Copies__c == null) {
+>                    copy.Book_Copy_Number_D__c = 1;
+>                 }
+>
+>                 // insert status
+>                 copy.Loan_Status__c = 'Checked In'; 
+>
+>                // insert date for first check-in
+>                copy.Last_Checked_In__c = Date.today(); 
+>            }
+>        }
+>    }
+> }
 
 
 ## Summary of the book Untamed
