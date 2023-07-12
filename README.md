@@ -31,8 +31,7 @@
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
 ## Code for the Book Copy Master Trigger
-`
-trigger BookCopyMasterTrigger on Book_Copy__c (
+'trigger BookCopyMasterTrigger on Book_Copy__c (
     before insert, after insert,
     before update, after update,
     before delete, after delete, after undelete) {
@@ -70,8 +69,7 @@ trigger BookCopyMasterTrigger on Book_Copy__c (
             // call method here
         }
     }
-}
-`
+}'
 
 ## Code for the Book Copy Handler Class
 `
