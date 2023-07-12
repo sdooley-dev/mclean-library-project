@@ -31,10 +31,10 @@
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
 ## Code for the Book Copy Master Trigger ##
-code
-`
 
-trigger BookCopyMasterTrigger on Book_Copy__c (
+
+
+`trigger BookCopyMasterTrigger on Book_Copy__c (
     before insert, after insert,
     before update, after update,
     before delete, after delete, after undelete) {
@@ -77,8 +77,9 @@ trigger BookCopyMasterTrigger on Book_Copy__c (
 '
 
 ## Code for the Book Copy Handler Class
-`
-public class BookCopyHandlerB {
+
+
+`public class BookCopyHandlerB {
 
     // method to update Book_Copy_Number_D__c, Loan_Status__c
     public static void updateBookCopyDetails(List<Book_Copy__c> copies) {
