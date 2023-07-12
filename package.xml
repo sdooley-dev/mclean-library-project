@@ -25,13 +25,16 @@
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
+		<name>Salesforce Standard Object</name>
 		<members>Account</members>
+		<members>Contact</members>
+		<members>User</members>
+	</types>
+		<types>
+		<name>Salesforce Custom Object</name>
 		<members>Book_Copy__c</members>
 		<members>Book_Loan__c</members>
 		<members>Book__c</members>
-		<members>Contact</members>
-		<members>User</members>
-		<name>CustomObject</name>
 	</types>
 	<types>
 		<members>*</members>
