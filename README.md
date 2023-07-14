@@ -30,7 +30,7 @@
 6. **Tableau CRM Analytics**
 > Example: Analytics on Book object.
 
-7. **Open Ai API**
+7. **OpenAI API**
 > Query the dataset
 
 8. **Github**
@@ -41,9 +41,9 @@
 > Login as librarian - View Permissions
 ## Book object - Declarative - Roll Up Summary Fields
 ## Create a new Book Title [1]
-### Create a new Book Copy (see code below)
+## Create a new Book Copy (see code below)
 
-### Code for the Book Copy Master Trigger
+## Code for the Book Copy Master Trigger
 
 > trigger BookCopyMasterTrigger on Book_Copy__c (    before insert, after insert,
 >     before update, after update,
