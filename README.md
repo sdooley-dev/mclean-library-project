@@ -146,14 +146,14 @@
 ## Tableau CRM Analytics
 -- Browse dashboards
 
-## Github [2] (package.xml)
-1. Package.xml | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
+## Reference Links
+1. Package.xml for Library org | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
 2. Readme.md file | https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
-3. Query the readme file | link in utility bar - https://bah97-dev-ed.develop.my.site.com/vahc/s/topiccatalog
--- Three questions [3]
-
-
-
+3. Experience Cloud / McLean Library Home Page Mock-up | https://sdooley.org/mclean-library-project/
+4. Open Ai Docs | https://platform.openai.com/docs/introduction
+5. Open Ai Demo | https://bah97-dev-ed.develop.my.site.com/vahc/s/topiccatalog
+6. Tableau CRM Analytics Demo (login required) | https://boozallen2-dev-ed.develop.my.salesforce.com/
+7. BAH SFA Practice Org (login required) | https://dhs000000pijamas-dev-ed.develop.my.salesforce.com/
 
 
 
@@ -165,6 +165,3 @@ Book__c, Book_Copy__c and Book_Loan__c are the custom objects used in the Salesf
 What standard objects are used for the data schema for the McLean Library Salesforce org?
 Account, Contact and User are the standard objects used in the Salesforce data schema for the McLean Library Management system.
 
-## Summary of the book Untamed
-The book "Untamed" by Glennon Doyle is currently checked in at the Great Falls Branch.
-Summary of the book Untamed: In this memoir, Glennon Doyle shares her journey of self-discovery and empowerment, encouraging readers to embrace their true selves, break free from societal expectations, and live a life guided by their own inner voice.
