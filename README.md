@@ -144,11 +144,11 @@
 - Browse Book copies
 - Browse locations (view map)
 
-## OpenAI API
-> Query the dataset on Github
-
 ## Tableau CRM Analytics
 > Browse dashboards
+
+## OpenAI API
+> Query the dataset on Github
 
 ## Reference Links
 1. Package.xml for Library org | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
