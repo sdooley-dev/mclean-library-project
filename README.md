@@ -151,7 +151,7 @@
 2. Readme.md file | https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 3. Experience Cloud / McLean Library Home Page Mock-up | https://sdooley.org/mclean-library-project/
 4. Open Ai Docs | https://platform.openai.com/docs/introduction
-5. Open Ai Demo | https://bah97-dev-ed.develop.my.site.com/vahc/s/topiccatalog
+5. Open Ai Demo | https://sdooley.org/open-ai-api/
 6. Tableau CRM Analytics Demo (login required) | https://boozallen2-dev-ed.develop.my.salesforce.com/
 7. BAH SFA Practice Org (login required) | https://dhs000000pijamas-dev-ed.develop.my.salesforce.com/
 
