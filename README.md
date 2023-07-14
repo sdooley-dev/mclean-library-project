@@ -30,17 +30,20 @@
 6. **Tableau CRM Analytics**
 > Example: Analytics on Book object.
 
-7. **Github**
+7. **Open Ai API**
+> Query the dataset
+
+8. **Github**
 > Example: Uploaded package.xml
 > https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 
 ## Demo
 > Login as librarian - View Permissions
-### Book object - Declarative - Roll Up Summary Fields
-### Create a new Book Title [1]
+## Book object - Declarative - Roll Up Summary Fields
+## Create a new Book Title [1]
 ### Create a new Book Copy (see code below)
 
-## Code for the Book Copy Master Trigger
+### Code for the Book Copy Master Trigger
 
 > trigger BookCopyMasterTrigger on Book_Copy__c (    before insert, after insert,
 >     before update, after update,
@@ -138,20 +141,21 @@
 - Browse catalog
 - Browse book details
 - Browse related
----
 - Browse Book copies
----
 - Browse locations (view map)
 
+## OpenAI API
+> Query the dataset on Github
+
 ## Tableau CRM Analytics
--- Browse dashboards
+> Browse dashboards
 
 ## Reference Links
 1. Package.xml for Library org | https://github.com/sdooley-dev/mclean-library-project/blob/main/package.xml
 2. Readme.md file | https://github.com/sdooley-dev/mclean-library-project/blob/main/README.md
 3. Experience Cloud / McLean Library Home Page Mock-up | https://sdooley.org/mclean-library-project/
-4. Open Ai Docs | https://platform.openai.com/docs/introduction
-5. Open Ai Demo | https://sdooley.org/open-ai-api/
+4. OpenAI Docs | https://platform.openai.com/docs/introduction
+5. OpenAI Demo | https://sdooley.org/open-ai-api/
 6. Tableau CRM Analytics Demo (login required) | https://boozallen2-dev-ed.develop.my.salesforce.com/
 7. BAH SFA Practice Org (login required) | https://dhs000000pijamas-dev-ed.develop.my.salesforce.com/
 
