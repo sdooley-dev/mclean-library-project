@@ -158,6 +158,7 @@
 5. OpenAI Demo | https://sdooley.org/open-ai-api/
 6. Tableau CRM Analytics Demo (login required) | https://boozallen2-dev-ed.develop.my.salesforce.com/
 7. BAH SFA Practice Org (login required) | https://dhs000000pijamas-dev-ed.develop.my.salesforce.com/
+8. Links to LinkedIn, Salesforce/Trailhead, GitHub profiles: https://sdooley.org/
 
 
 
